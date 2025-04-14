@@ -5,11 +5,16 @@
   <title>My Website</title>
 </head>
 <body>
-  <h1>Welcome To My Portfolio</h1>
-  <a href=""><button>About</button></a>
-  <a href=""><button>Skills</button></a>
-  <a href=""><button>Project</button></a>
-  <a href=""><button>Contact</button></a>
+  <header>
+    <h1>Welcome To My Portfolio</h1>
+    <a href=""><button>About</button></a>
+    <a href=""><button>Skills</button></a>
+    <a href=""><button>Project</button></a>
+    <a href=""><button>Contact</button></a>
+  </header>
+
+  <main>
+<section id="about">
   <h1>Harsha</h1>
   <img src="image.jpg" height="400px" width="300px" alt="A Photo of Me ">
   <p>
@@ -18,51 +23,67 @@
 <p>I am now currently pursuing my BTECH in <em>Marwadi University</em> of first year student</p>
 <p>Currently I am learning Web Dev course from Swaroop from <br>MentiBy.</p>
 <p>You can <strong>Click here</strong> to Check out What I've learnt from HTML. </p>
-<h1>My Skills</h1>
-<ol>
-  <li>Python Basics</li>
-  <li>HTML Basics</li>
-</ol>
-<h1>My Projects</h1>
-<table border="1">
-  <tr>
-    <th>Projects</th>
-    <th>Description</th>
-  </tr>
-  <tr>
-    <td>Portfolio Website</td>
-    <td>I have Built a Portfolio website By Using HTML, CSS, JavaScript</td>
-  </tr>
-  <tr>
-   <td> Python Simple Calculator</td>
-   <td>I Have Built a Simple Calculator in the course by CodeWithSwaroop</td>
-  </tr>
-</table>
-<h1>Contact Me</h1>
-<p>Feel free to get in Touch with Me using the form below:</p>
-<form>
-  <label for="name">Name:</label>
-  <input type="text" id="name">
+</section>
+<section id="skills">
+  <h1>My Skills</h1>
+  <ol>
+    <li>Python Basics</li>
+    <li>HTML Basics</li>
+  </ol>
+</section>
+<section id="project">
+  <h1>My Projects</h1>
+  <table border="1">
+    <tr>
+      <th>Projects</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td>Portfolio Website</td>
+      <td>I have Built a Portfolio website By Using HTML, CSS, JavaScript</td>
+    </tr>
+    <tr>
+     <td> Python Simple Calculator</td>
+     <td>I Have Built a Simple Calculator in the course by CodeWithSwaroop</td>
+    </tr>
+  </table>
+</section>
+<section id="contact">
+  <h1>Contact Me</h1>
+  <p>Feel free to get in Touch with Me using the form below:</p>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name">
+    <br><br>
+    <label for="email">Email:</label>
+    <input type="email">
+    <br><br>
+    <b>Choose Your Gender:</b>
+    <input type="radio" id="male" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" value="female">
+    <label for="female">Female</label>
+    <br><br>
+    <b>Select Your Intrest:</b>
+    <input type="checkbox" id="Coding" value="coding">
+    <label for="coding" >Coding</label>
+    <input type="checkbox" id="Reading" value="Reading">
+    <label for="Reading" >Reading</label>
+    <br><br>
+    <label for="Bio">Bio (up to 200 characters):</label>
+  <input type="text">
   <br><br>
-  <label for="email">Email:</label>
-  <input type="email">
-  <br><br>
-  <b>Choose Your Gender:</b>
-  <input type="radio" id="male" value="male">
-  <label for="male">Male</label>
-  <input type="radio" id="female" value="female">
-  <label for="female">Female</label>
-  <br><br>
-  <b>Select Your Intrest:</b>
-  <input type="checkbox" id="Coding" value="coding">
-  <label for="coding" >Coding</label>
-  <input type="checkbox" id="Reading" value="Reading">
-  <label for="Reading" >Reading</label>
-  <br><br>
-  <label for="Bio">Bio (up to 200 characters):</label>
-<input type="text">
-<br><br>
-<button type="submit">Submit</button>
-</form>
+  <button type="submit">Submit</button>
+  </form>
+</section>
+  </main>
+
+  <footer>
+    <p>@ 2023 My Portfolio</p>
+  </footer>
+ 
+
+
+
 </body>
 </html>
