@@ -1,0 +1,80 @@
+*{
+    font-family: monospace;
+    margin:0;
+}
+header h1{
+    margin: 0;
+}
+header{
+    background-color: black;
+    color:yellow;
+    margin: 0;
+    height: 100vh;
+    text-align: center;
+}
+body{
+    font-size: 15px;
+}
+.button{
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    border: none;
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+    font: bold;
+}
+.button:hover{
+    color:black;
+    background-color: aliceblue;
+}
+img{
+    height: 200px;
+    width: 150px;
+}
+section{
+    height: 100vh;
+    border: 2px solid lightgrey;
+    background-color: rgb(182, 181, 175);
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+main{
+    padding: 20px;
+}
+input{
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+button{
+     height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color:white;
+    cursor: pointer;
+    font: bold;
+    font-size: 15px;
+}
+button:hover{
+    background-color: rgb(102, 99, 99);
+}
+.fixed{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid grey;
+    color: white;
+}
+footer{
+    height: 150px;
+    background-color: black;
+    color: yellow;
+}
